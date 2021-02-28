@@ -107,48 +107,48 @@ public class Robot extends TimedRobot {
 
 		switch(autoStage) {
 			case 1:
-			drive(13);
-			break;
+				drive(13);
+				break;
 			case 2:
-			turn(-70);
-			break;
+				turn(-70);
+				break;
 			case 3:
-			drive(13.5);
-			break;
+				drive(13.5);
+				break;
 			case 4:
-			turn(-88);
-			break;
+				turn(-88);
+				break;
 			case 5:
-			drive(6);
-			break;
+				drive(6);
+				break;
 			case 6:
-			turn(-40);
-			break;
+				turn(-40);
+				break;
 			case 7:
-			drive(7);
-			break;
+				drive(7);
+				break;
 			case 8:
-			turn(45);
-			break;
+				turn(45);
+				break;
 			case 9:
-			drive(7);
-			break;
+				drive(7);
+				break;
 			case 10:
-			turn(100);
-			break;
+				turn(100);
+				break;
 			case 11:
-			drive(13.5);
-			break;
+				drive(13.5);
+				break;
 			case 12:
-			turn(95);
-			break;
+				turn(95);
+				break;
 			case 13:
-			drive(14);
-			break;
+				drive(14);
+				break;
 			default:
-			driveY = 0.0;
-			driveX = 0.0;
-			break;
+				driveY = 0.0;
+				driveX = 0.0;
+				break;
 		}
 
 		m_drivetrain.arcadeDrive(driveY, driveX);
